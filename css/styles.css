@@ -6,9 +6,27 @@ font-size: 100px;
  }
 
 .paragraphintro  {
-color: teal;
+color: coral;
 font-style: italic;
 font-size: 50px;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: coral;
+  font-color: black;
+}
+
+
+.container {
+  background-color: white;
+}
+
+.missiontext {
+  font-size: 15px;
 }
 
 
