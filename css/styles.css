@@ -1,0 +1,86 @@
+h1 {
+  color: black;
+font-style: italic;
+font-family: Helvetica;
+font-size: 100px;
+ }
+
+.paragraphintro  {
+color: coral;
+font-style: italic;
+font-size: 50px;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: coral;
+  font-color: black;
+}
+
+
+.container {
+  background-color: white;
+}
+
+.missiontext {
+  font-size: 5px;
+}
+
+
+.personimage {
+  width: 10%;
+  height: 10px;
+}
+
+
+
+.lead {
+  font-size: 40px;
+
+
+  .menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+  }
+
+  .menu-section {
+    margin-bottom: 80px;
+  }
+
+  .menu-section-title {
+    font-family: georgia;
+    font-size: 50px;
+    display: block;
+    font-weight:normal;
+    margin: 20px 0;
+    text-align: Center;
+  }
+
+  .menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+  }
+
+  .menu-item-name{
+    font-family: helvetica;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(213, 213, 213);
+  }
+
+  .menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+  }
+
+  .menu-item-price{
+    float: right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -22px;
+  }
