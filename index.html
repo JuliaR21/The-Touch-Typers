@@ -4,14 +4,14 @@
   <title>Sushi & The City</title>
 <link href="css/bootstrap.css" rel="stylesheet" />
 <link href="css/styles.css" rel="stylesheet" />
-<script src="js/jquery-3.3.1.min.js"> </script>
-<script src="js/bootstrap.js"> </script>
+
 <meta name="viewport" content="width=device=width, initial-scale=1" />
 
 </head>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -19,24 +19,30 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Sushi and the City</a>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Social Media</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu & More <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Menu</a></li>
-            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#">Reviews</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">About Us</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">News</a></li>
           </ul>
         </li>
       </ul>
       <form class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Join our mailing list">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
@@ -45,16 +51,16 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Sushi</a></li>
-            <li><a href="#">Alcohol</a></li>
-            <li><a href="#">Tea</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
       </ul>
-    </div>
-  </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 
 <body>
@@ -62,48 +68,48 @@
   <div class='jumbotron'>
     <div class="row">
 
-<h1> Sushi and the City </h1>
+<p> Sushi and the City
+<div>
+  By Lydia, Aalia and Julia </div>
+ </p>
 
-<div class="col-sm-8 paragraphintro">
-    <p>Luxury sushi at affordable prices</p>
+<div class="col-sm-8">
+    <h1>Luxury sushi at affordable prices</h1>
+</div>
+<div class"col-sm-4">
+    <img class="img-responsive" src='images/sashimi_overhead.jpg'>
 </div>
 </div>
 
-  <div class="row">
-
-<div class= "col-sm-12">
-    <img class="img-responsive img-circle" src='images/sashimi_overhead.jpg'>
-</div>
-</div>
-
+    <form role='form'>
+      <label for="email">Find out more</label>
+      <input type="text" name="email" >
+      <button class="btn btn-success" type="submit">Send</button>
+    </form>
   </div>
 
   <div id="buzz" class = "text-center">
-
-    <h2><small>Our team</small><br />Find out more...</h2>
-
+    <h2><small>Reviews</small><br />Some of our customers...</h2>
     <div class="row">
       <div class="col-sm-4">
-      <img class="img-square img-responsive" src='images/lydia.jpg'>
+      <img class="img-circle" src='images/sushi-pericoloso.jpg'>
           <blockquote>
-      <p> Lydia is world famous restauranteur, owning more than 100 restaurants worldwide.</p>
-                <small>Lydia</small>
+      <p> The quickest delivery in London!</p>
+                <small>Mr Smith</small>
         </blockquote>
     </div>
     <div class="col-sm-4">
-      <img class="img-square img-responsive" src='images/aalia.jpg'>
+      <img class="img-circle" src='images/person.jpg'>
       <blockquote>
-        <p>Aalia is a multi-million pound investor in Sushi and the City.</p>
-        <small>Aalia</small>
+        <p>The most delicious food and still so affordable.</p>
+        <small>Miss McAdam</small>
       </blockquote>
     </div>
     <div class="col-sm-4">
-
-    <img class="img-square img-responsive" src='images/julia.jpg'>
+    <img class="img-circle" src='images/person.jpg'>
       <blockquote>
-        <p>Julia is a world class Michelin star chef, and head of the company kitchen.</p>
-        <small>Julia</small>
-
+        <img class="img-circle" src='images/stars.jpg'>
+        <p>5 stars!</p>
       </blockquote>
     </div>
   </div>
@@ -112,10 +118,9 @@
   <div id="mission">
     <h2><small>Our mission</small><br />Sushi and the City</h2>
 
-    <p class="missiontext"> We believe that Sushi is the key to all happiness! </p>
-    <p class="missiontext"> Our sushi is affordable and delicious.</p>
-    <p class="missiontext"> Providing your team with a healthy lunch each day improves both motivation and morale.</p>
-    <p class="missiontext"> We deliver healthy meals, made with the best ingredients, to your workplace every day.</p>
+    <p class="lead"> We believe that healthy workers are more productive workers.</p>
+    <p class="lead"> Providing your team with a healthy lunch each day improves both motivation and morale.</p>
+    <p class="lead"> We deliver healthy meals, made with the best ingredients, to your workplace every day.</p>
 
     <p>
       <h1>
@@ -123,25 +128,6 @@
       </h1>
     </p>
 
-      <p>
-        <h4>
-          Our menu highlights the very freshest fish that Chef Rose is able to source from around the world.
-        She takes great care in his technique and ingredients; expertly butchering the fish, perfecting the flawless sushi rice and offering hand-shaved, fresh wasabi.
-      </h4>
-    </p>
-
-    <h4>
-        The menu features Kozara (Japanese small plates), such as Ahi Tuna Tacos, Truffle. Chawanmushi and Edamame "Guac" with Rice Crisps.
-        For the sushi purist, Chef Rose offers a full selection of Classic Sashimi and Nigiri selections, Temaki (hand rolls) and Hosomaki (traditional Japanese rolls).
-    </h4>
-    <p>
-    </p>
-    <h4>
-      For the guests desiring something other than sushi, the menu also features Ohzara (Japanese main plates), such as Caramel Lacquered Short Rib and Roasted Salmon.
-
-      To place an order or make a reservation,
-      call +44 7738680002.
-    </h4>
 
 
     <div id='social-buttons'>
@@ -158,4 +144,7 @@
 
 </div>
 </body>
+
+
+<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
 </html>
