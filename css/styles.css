@@ -26,7 +26,7 @@ body {
 }
 
 .missiontext {
-  font-size: 15px;
+  font-size: 2px;
 }
 
 
@@ -50,42 +50,32 @@ body {
 
   .menu-section {
     margin-bottom: 80px;
-    color: white;
-    text-align:center;
   }
 
   .menu-section-title {
     font-family: georgia;
     font-size: 50px;
-    color: white;
     display: block;
     font-weight:normal;
     margin: 20px 0;
-    color: white;
-    text-align:center;
+    text-align: Center;
   }
 
   .menu-item {
     margin: 35px 0;
     font-size: 18px;
-    color: white;
-    text-align:center;
   }
 
   .menu-item-name{
     font-family: helvetica;
     font-weight: bold;
     border-bottom: 2px dotted rgb(213, 213, 213);
-    color: white;
-    text-align:center;
   }
 
   .menu-item-description {
     font-style: italic;
     font-size: .9em;
     line-height: 1.5em;
-    color: white;
-    text-align:center;
   }
 
   .menu-item-price{
@@ -93,6 +83,4 @@ body {
     font-weight: bold;
     font-family: arial;
     margin-top: -22px;
-    color: white;
-    text-align:center;
   }
